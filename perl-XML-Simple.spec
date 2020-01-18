@@ -1,6 +1,6 @@
 Name:           perl-XML-Simple
 Version:        2.20
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Easy API to maintain XML in Perl
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -59,6 +59,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.20-5
+- Mass rebuild 2013-12-27
+
 * Fri Aug 24 2012 Jitka Plesnikova <jplesnik@redhat.com> - 2.20-4
 - Add test BR perl(XML::SAX::Base)
 - Add R perl(IO::Handle), remove duplicate R perl(File::Spec).
